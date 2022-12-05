@@ -1,7 +1,27 @@
+.home_header{
+    background-color: aqua;
+    display: flex;
+    justify-content: 40px;
+}
+.home_header_nav {
+    display: flex;
+    gap: 30px;
+  }
+
+.home_header_nav_item {
+    list-style: none;
+    color: blue;}
+
 body {
     background-color: rgb(11, 95, 95);
 }
+
 .texto1 {
     color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.home_header_nav_item:hover, a:hover {
+    scale: 2;
+    color: rgb(32, 65, 5);
+    transition: all 0.4s ease-in-out;
+  }
